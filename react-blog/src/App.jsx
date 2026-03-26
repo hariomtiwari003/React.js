@@ -1,18 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+function App(){
+alert(sum())
   return (
-    <>
-     <h1>Hello welcome to my world!</h1>
-     <h1>himanshu</h1>
-    </>
+ <div>
+   <h1>First Element</h1>
+  <Fruit/>
+ </div>
+)
+}
+
+
+function Fruit(){
+  return(
+    <h1>Apple</h1>
   )
 }
 
-export default App
+function sum(){
+  return 10+20
+}
+
+
+export default App;
