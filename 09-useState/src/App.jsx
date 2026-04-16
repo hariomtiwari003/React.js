@@ -17,7 +17,7 @@ const App = () => {
   }
 
   function jump5Num() {
-    setNum(num +5)
+    setNum(num +5);
   }
 
 
